@@ -48,8 +48,8 @@ class RegistrationController
             $mail->isSMTP();
             $mail->Host = 'smtp.mailtrap.io';  //mailtrap SMTP server
             $mail->SMTPAuth = true;
-            $mail->Username = 'd0ca269bd39eff';   //username
-            $mail->Password = '0e97dd2dec24f5';   //password
+            $mail->Username = 'YOUR_USERNAME';   //username
+            $mail->Password = 'YOUR_PASSWORD';   //password
             $mail->Port = 2525;                    //smtp port
 
             $mail->setFrom('noreply@' . config('app.name') . '.net', '' . config('app.name'));
