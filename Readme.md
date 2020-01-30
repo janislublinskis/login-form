@@ -39,4 +39,8 @@ create table users
 create unique index users_email_uindex
 	on users (email);
 	
+Change creditentials in RegistrationController.php and PasswordController.php to your creditentials in Mailtrap.io
+$mail->Username = 'YOUR_USERNAME';   //username
+$mail->Password = 'YOUR_PASSWORD';   //password
+	
 ------------------------------------------------
